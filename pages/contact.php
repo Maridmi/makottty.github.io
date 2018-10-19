@@ -7,19 +7,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <title>Contact with makotty</title>
 </head>
-<body style="background: linear-gradient(#FFB3D7, white 30%, white)">
+<body class="all">
 <?php require_once "pages/widgets/header.php"; ?>
 
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center" style="margin: 30px">Contact</h2>
+  <h2 class="glow" style="margin: 30px">Contact</h2>
   <div class="row" style="margin: 20px;">
     <div class="left" style="margin: 1% 0 0 10%">
-      <p><span class="glyphicon glyphicon-map-marker" style="opacity: 0.8">Russia, Saint-Petersburg</p></span>
-      <p><span class="glyphicon glyphicon-phone" style="opacity: 0.8">Phone: </span><a href="tel:+79080934835">+7(908)-093-48-35</a></p>
-      <p><span class="glyphicon glyphicon-envelope" style="opacity: 0.8">E-mail: </span><a href="http://www.gmail.com/">yarova0marina@gmail.com</a></p>
-      <p><span class="glyphicon glyphicon-envelope" style="opacity: 0.8">Instagram: </span><a href="http://www.intagram.com/xsilxx/">xsilxx</a></p>
-      <p><span class="glyphicon glyphicon-envelope" style="opacity: 0.8">Personal Instagram: </span><a href="http://www.intagram.com/_mari_rina_/">_mari_rina_</a>
-      <p><span class="glyphicon glyphicon-envelope" style="opacity: 0.8">GitHub: </span><a href="https://www.github.com/Maridmi/">Maridmi</a></p>
+      <p><span class="glyphicon glyphicon-map-marker" style="opacity: 0.7">Russia, Saint-Petersburg</p></span>
+      <p><span class="glyphicon glyphicon-phone" style="opacity: 0.7">Phone: </span><a href="tel:+79080934835">+7(908)-093-48-35</a></p>
+      <p><span class="glyphicon glyphicon-envelope" style="opacity: 0.7">E-mail: </span><a href="http://www.gmail.com/">yarova0marina@gmail.com</a></p>
+      <p><span class="glyphicon glyphicon-envelope" style="opacity: 0.7">Instagram: </span><a href="http://www.intagram.com/xsilxx/">xsilxx</a></p>
+      <p><span class="glyphicon glyphicon-envelope" style="opacity: 0.7">Personal Instagram: </span><a href="http://www.intagram.com/_mari_rina_/">_mari_rina_</a>
+      <p><span class="glyphicon glyphicon-envelope" style="opacity: 0.7">VK: </span><a href="https://vk.com/mari__rina">Marina Yarova</a></p>
+      <p><span class="glyphicon glyphicon-envelope" style="opacity: 0.7">GitHub: </span><a href="https://www.github.com/Maridmi/">Maridmi</a></p>
     </div>
     <form action="/form" method="post" class="col-sm-7 slideanim">
       <div class="row">

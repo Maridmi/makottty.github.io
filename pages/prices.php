@@ -9,8 +9,8 @@
 <?php require_once "pages/widgets/header.php"; ?>
 
 <div id="pricing" class="container-fluid">
-  <div class="text-center">
-    <h2 style="margin: 35px 0 10px 0">Pricing</h2>
+  <div class="glow" class="text-center">
+    <h2 class="glow" style="margin: 35px 0 10px 0">Pricing</h2>
     <h4>Services I offer and prices</h4>
   </div>
   <div class="row slideanim">
