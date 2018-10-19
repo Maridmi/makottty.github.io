@@ -1,0 +1,84 @@
+.text-center {
+	color: white;
+}
+
+.heading {
+	border-radius: 10px 10px 0 0;
+	background-color: rgba(0,0,0, .5);
+	color: white;
+}
+
+.panel-body {
+	text-align: left;
+	margin: 10% 0 0 0;
+	height: 210px;
+}
+
+.panel-footer {
+	height: 160px;
+}
+
+.container-fluid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.description {
+	color: #FF0F7F;
+}
+
+.btn {
+	margin-top: 20px;
+	background-color: inherit;
+	outline: none;
+}
+
+.btn a {
+	color: white;
+	text-decoration: none;
+}
+
+.btn a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.all {
+	background-image: radial-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.5)), url("/img/back.jpg");
+}
+
+
+.panel1 {
+	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("/img/back.gif");
+}
+
+.panel2 {
+	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("/img/back2.gif");
+}
+
+.bot a{
+	color: white;
+}
+
+@media screen and (min-width:1024px){ 
+	.panel-default {
+		width: 310px;
+		margin: 25px 20px 40px 20px;
+		border-radius: 10px;
+	}
+
+	.description {
+		margin-left: 50%;
+	}
+}
+
+
+@media screen and (min-width:210px) and (max-width: 1024px){
+	.panel-default {
+		width: 95%;
+		margin: 25px 20px 40px 20px;
+		border-radius: 10px;
+	}
+}

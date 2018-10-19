@@ -1,0 +1,339 @@
+.navbar-nav a{
+	font-size: 120%;
+	margin: 0 40px 0 0;
+}
+
+.media-body {
+	margin-left: 15px;
+}
+
+.contact_makotty {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.container{
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	height: 55px;
+	text-align: center;
+}
+
+.btn1 {
+	cursor: pointer;
+	padding-top: 15px;
+	color: white;
+}
+
+.btn1:hover {
+	color: #FF0F7F;
+}
+
+.img_cont {
+    position: relative;
+    width: 280px;
+    height: 280px;
+}
+
+.img_cont .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.after {
+	color:white; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-weight: bold; 
+	font-size: 50px;
+}
+
+.img_cont:hover .after {
+    display: block;
+    border-radius: 140px;
+    background: rgba(0, 0, 0, .7);
+}
+
+
+.bot1 a{
+	margin: 0 30px 0 30px;
+	color: white;
+	text-decoration: none;
+}
+
+.bot img {
+	text-align: center;
+}
+
+.bot img:hover {
+	opacity: 0.7;
+}
+
+.bot a:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+.left a {
+	color: black;
+	text-decoration: none;
+}
+
+.left a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+@media screen and (min-width:1024px){ 
+	.navbar {
+		height: 60px;
+	}
+
+	.navbar-header {
+		display: none;
+	}
+
+	.carousel-inner img {
+    	width: 100%;
+    	height: 650px;
+    	margin: 0;
+	}
+
+	.carousel-caption {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 70%;
+		height: 70%;
+	}
+
+	.carousel-caption img{
+		width: 55%;
+		height: 34%;
+	}
+
+	.about_makotty {
+		margin: 50px;
+	}
+
+	.about_makotty img {
+		width: 230px;
+		height: 100%;
+	}
+
+	.topic {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin: 60px;
+	}
+
+	.scroll, .bus{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: stretch;
+	}
+
+	.bus img {
+		width: 280px;
+	}
+
+	.bus {
+		margin-top: 10px;
+	}
+
+	.h1 {
+		font-size: 410%;
+	}
+
+	.h3 {
+		margin-top: 30px;
+	}
+
+	.bot {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		background-color: rgba(0, 0, 0, 0.45);
+		font-size: 16px;
+		width: 100%;
+		height: 48px;
+		padding: 15px 0 15px 0;
+		margin-top: 80px;
+	}
+
+	.bottom {
+		position: ;
+	}
+
+
+	.glow {
+	  color: #fff;
+	  text-align: center;
+	  -webkit-animation: glow 1s ease-in-out infinite alternate;
+	  -moz-animation: glow 1s ease-in-out infinite alternate;
+	  animation: glow 1s ease-in-out infinite alternate;
+	}
+
+	@-webkit-keyframes glow {
+	  from {
+	     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	  }
+	  to {
+	    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+	  }
+	}
+
+	.glow1:hover {
+	  color: #fff;
+	  text-align: center;
+	  -webkit-animation: glow 1s ease-in-out infinite alternate;
+	  -moz-animation: glow 1s ease-in-out infinite alternate;
+	  animation: glow 1s ease-in-out infinite alternate;
+	}
+
+	@-webkit-keyframes glow1:hover; {
+	  from {
+	     text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 20px #e60073, 0 0 30px #e60073;
+	  }
+	  to {
+	    text-shadow: 0 0 10px #fff, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6;
+	  }
+	}
+}
+
+
+@media screen and (min-width:200px) and (max-width: 1024px){ 
+	.navbar {
+		text-align: center;
+		min-height: 55px;
+	}
+
+	.carousel-inner img {
+    	width: 100%;
+    	height: 180px;
+    	margin: 0;
+	}
+
+	.carousel-caption {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 70%;
+		height: 70%;
+	}
+
+	.carousel-caption img{
+		width: 80%;
+		height: 70%;
+	}
+
+	.bus img {
+		width: 280px;
+		height: 280px;
+	}
+
+	.bus a {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 10px 0 20px 0;
+	}
+
+	.after span {
+		text-align: center;
+	}
+
+	.topic{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 30px;
+	}
+
+	.about_makotty {
+		margin: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+	}
+
+	.about_makotty img {
+		width: 70%;
+		margin-bottom: 10px;
+	}
+
+	.bot {
+		background-color: rgba(0, 0, 0, 0.5);
+		font-size: 18px;
+		width: 100%;
+		margin: 10px 0 0 0;
+		padding: 10px 0 10px 0;
+
+	}
+
+	.bot1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.bot img {
+		display: none;
+	}
+
+	.h1 {
+		font-size: 150%;
+	}
+
+	.h3 {
+		font-size: 100%;
+	}
+
+
+	.glow {
+	  color: #fff;
+	  text-align: center;
+	  -webkit-animation: glow 1s ease-in-out infinite alternate;
+	  -moz-animation: glow 1s ease-in-out infinite alternate;
+	  animation: glow 1s ease-in-out infinite alternate;
+	}
+
+	@-webkit-keyframes glow {
+	  from {
+	     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	  }
+	  to {
+	    text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6;
+	  }
+	}
+
+	.glow1:hover {
+	  color: #fff;
+	  text-align: center;
+	  -webkit-animation: glow 1s ease-in-out infinite alternate;
+	  -moz-animation: glow 1s ease-in-out infinite alternate;
+	  animation: glow 1s ease-in-out infinite alternate;
+	}
+
+	@-webkit-keyframes glow1:hover; {
+	  from {
+	     text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 20px #e60073, 0 0 30px #e60073;
+	  }
+	  to {
+	    text-shadow: 0 0 5px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6;
+	  }
+	}
+}
