@@ -51,6 +51,7 @@ mysqli_close($conn);
 	</div>
 	<div class="copy" style="background-color: black; width: 100%; height: 100%; color:rgba(255,255,255,0.6); text-align: center; font-size: 15px; margin: 0">
 		<footer>&copy2018 Makotty</footer>
+		<!-- hi-->
 	</div>
 </div>
 </body>
