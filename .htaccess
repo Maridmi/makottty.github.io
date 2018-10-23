@@ -2,13 +2,18 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+<<<<<<< HEAD
+RewriteRule ^index\.php$ / [L]
+
+# правило перенаправления "с www" на "без www"
+RewriteCond %{HTTP_HOST} ^www\.makotty\.info$
+RewriteRule ^(.*)$ http://makotty.info/$1 [R=301,L]
 
 ErrorDocument 404 pages/errors/404.html
 
 DirectoryIndex index.php
 
-Options All -Indexes
+RewriteBase https://makotty.info/
 
 #vs agents
 SetEnvIfNoCase user-Agent ^FrontPage [NC,OR]
@@ -43,3 +48,10 @@ ExpiresByType image/gif "access plus 7 days"
 ExpiresByType image/jpeg "access plus 7 days"
 ExpiresByType image/png "access plus 7 days"
 </IfModule>
+=======
+RewriteRule .* index.php [L]
+RewriteCond %{REQUEST_URI} !^\/resources/styles/(.*).css
+RewriteCond %{REQUEST_URI} !^\/resources/images/(.*).png
+RewriteCond %{REQUEST_URI} !^\/resources/images/(.*).jpg
+RewriteCond %{REQUEST_URI} !^\/resources/lib/jquery/(.*).js
+>>>>>>> a0253f8db7cbbe9c8974f96367099b0c6a7cd981
