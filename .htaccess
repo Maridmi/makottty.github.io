@@ -1,57 +1,11 @@
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
+Options +FollowSymLinks
+
+RewriteCond %{REQUEST_FILENAME} index.php
+RewriteCond %{QUERY_STRING} page=article
+RewriteCond %{QUERY_STRING} pid=5
+RewriteRule ^.*?$ http://www.makotty.info/ [L,R=301]
+
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-l
-<<<<<<< HEAD
-RewriteRule ^index\.php$ / [L]
-
-# правило перенаправления "с www" на "без www"
-RewriteCond %{HTTP_HOST} ^www\.makotty\.info$
-RewriteRule ^(.*)$ http://makotty.info/$1 [R=301,L]
-
-ErrorDocument 404 pages/errors/404.html
-
-DirectoryIndex index.php
-
-RewriteBase https://makotty.info/
-
-#vs agents
-SetEnvIfNoCase user-Agent ^FrontPage [NC,OR]
-SetEnvIfNoCase user-Agent ^Java.* [NC,OR]
-SetEnvIfNoCase user-Agent ^Microsoft.URL [NC,OR]
-SetEnvIfNoCase user-Agent ^MSFrontPage [NC,OR]
-SetEnvIfNoCase user-Agent ^Offline.Explorer [NC,OR]
-SetEnvIfNoCase user-Agent ^[Ww]eb[Bb]andit [NC,OR]
-SetEnvIfNoCase user-Agent ^Zeus [NC]
-<limit get="" post="" head="">
-Order Allow,Deny
-Allow from all
-Deny from env=bad_bot
-</limit>
-
-#fast working with Gzip
-FileETag MTime Size
-<ifmodule mod_expires.c>
-<filesmatch ".(jpg|jpeg|gif|png|ico|css|js)$">
-ExpiresActive on
-ExpiresDefault "access plus 1 month"
-</filesmatch>
-</ifmodule>
-
-#cashed files
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType application/javascript "access plus 7 days"
-ExpiresByType text/javascript "access plus 7 days"
-ExpiresByType text/css "access plus 7 days"
-ExpiresByType image/gif "access plus 7 days"
-ExpiresByType image/jpeg "access plus 7 days"
-ExpiresByType image/png "access plus 7 days"
-</IfModule>
-=======
-RewriteRule .* index.php [L]
-RewriteCond %{REQUEST_URI} !^\/resources/styles/(.*).css
-RewriteCond %{REQUEST_URI} !^\/resources/images/(.*).png
-RewriteCond %{REQUEST_URI} !^\/resources/images/(.*).jpg
-RewriteCond %{REQUEST_URI} !^\/resources/lib/jquery/(.*).js
->>>>>>> a0253f8db7cbbe9c8974f96367099b0c6a7cd981
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]
