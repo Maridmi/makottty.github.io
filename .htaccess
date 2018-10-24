@@ -5,3 +5,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RemoveHandler .html 
 AddType application/x-httpd-php .php
+
+ErrorDocument 404 docs/errors/404.html
