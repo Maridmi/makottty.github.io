@@ -2,3 +2,6 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 <FilesMatch "/index\.php$">
+
+RemoveHandler .html 
+AddType application/x-httpd-php .php
