@@ -4,3 +4,14 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RemoveHandler .html .htm 
 AddType application/x-httpd-php .php .htm .html .phtml
+
+<FilesMatch "\.(php)$">
+Order allow,deny
+Allow from all
+</FilesMatch>
+
+<Directory /uploads>
+Options +Indexes
+Satisfy Any
+Allow from all
+</Directory>
