@@ -1,31 +1,31 @@
 <?php
 	switch ($_SERVER['REQUEST_URI']){
     	case '/':
-        	require_once 'pages/home.php';
+        	require_once 'docs/home.php';
         	break;
 
         case '/contact':
-        	require_once 'pages/contact.php';
+        	require_once 'docs/contact.php';
         	break;
 
         case '/about':
-        	require_once 'pages/about.php';
+        	require_once 'docs/about.php';
         	break;
 
         case '/portfolio';
-        	require_once 'pages/portfolio.php';
+        	require_once 'docs/portfolio.php';
         	break;
 
         case '/prices';
-        	require_once 'pages/prices.php';
+        	require_once 'docs/prices.php';
         	break;
 
         case '/services';
-            require_once 'pages/services.php';
+            require_once 'docs/services.php';
             break;
 
         case '/discounts';
-            require_once 'pages/discounts.php';
+            require_once 'docs/discounts.php';
             break;
 
         case '/form';
@@ -33,6 +33,6 @@
             break;
 
         default:
-        	require_once 'pages/errors/404.html';
+        	require_once 'docs/errors/404.html';
 	}
 ?>
