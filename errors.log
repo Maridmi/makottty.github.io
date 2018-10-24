@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 ErrorLog "|https://github.com/Maridmi/maridmi.github.io-error.%Y.%m.%d.log  86400"
   LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"" combined
 
 CustomLog "|https://github.com/Maridmi/maridmi.github.io-access.%Y.%m.%d.log  86400" combined
 
 LogLevel warn rewrite:trace4
+=======
+ErrorLog "|https://github.com/Maridmi/maridmi.github.io-error.%Y.%m.%d.log  86400"
+  LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"" combined
+
+CustomLog "|https://github.com/Maridmi/maridmi.github.io-access.%Y.%m.%d.log  86400" combined
+
+LogLevel warn rewrite:trace4
+>>>>>>> add49905796a6a7ea4c91355e80c70363515acb5
