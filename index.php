@@ -1,7 +1,7 @@
 <?php
 	switch ($_SERVER['REQUEST_URI']){
     	case '/':
-        	require_once 'docs/home.html';
+        	require_once 'docs/home.php';
         	break;
 
         case '/contact':

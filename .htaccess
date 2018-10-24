@@ -1,24 +1,11 @@
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
 
-<<<<<<< HEAD
 RemoveHandler .html 
 AddType application/x-httpd-php .php
 
 ErrorDocument 404 docs/errors/404.html
-=======
-RemoveHandler .html .htm 
-AddType application/x-httpd-php .php .htm .html .phtml
 
-<FilesMatch "\.(php)$">
-Order allow,deny
-Allow from all
-</FilesMatch>
-
-<Directory /uploads>
-Options +Indexes
-Satisfy Any
-Allow from all
-</Directory>
->>>>>>> 58ffc31f7138c5b4e6d05fec7883b7b2cd080f4c
