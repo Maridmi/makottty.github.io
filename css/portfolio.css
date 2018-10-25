@@ -82,7 +82,11 @@
         height: 150px;
     }
 
-    #demo .carousel{
+    #demo {
+        display: none;
+    }
+
+    .carousel-inners, .carousel, .carousel-item, .carousel-indicators, .column1, .thumbnail {
         display: none;
     }
 }
