@@ -30,7 +30,25 @@ if (mysqli_query($conn, $sql)) {
 }
 mysqli_close($conn);
 ?>
+<style>
+	.btn {
+	width: 110px;
+	height: 45px;
+	background-color: gray;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
 
+	}
+
+	.btn:hover {
+	background-color: lightgray;
+	transition: .15s;
+	text-decoration: none;
+	color: black;
+	}
+</style>
 <div class="success">
 	<div><h2>Your message have been sent!</h2></div>
 	<a href="/contact"><div class="btn">back</div></a>
