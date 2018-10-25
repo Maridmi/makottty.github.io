@@ -39,6 +39,7 @@ h1 {
 		height: 48px;
 		padding: 15px 0 15px 0;
 		margin-top: 80px;
+		position: fixed;
 	}
 
 	.image {
@@ -48,28 +49,7 @@ h1 {
 
 }
 
-@media screen and (min-width:210px) and (max-width: 1024px){ 
-	.bot {
-		background-color: rgba(0, 0, 0, 0.5);
-		font-size: 18px;
-		width: 100%;
-		margin: 10px 0 0 0;
-		padding: 10px 0 50px 0;
-		position: fixed;
-		bottom: 17px;
-	}
-
-	.bot1 {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-	}
-
-	.bot img {
-		display: none;
-	}
-
+@media screen and (min-width:210px) and (max-width: 1024px){
 	.image {
 		width: 70%;
 		margin: 10% 15% 0 15%;
