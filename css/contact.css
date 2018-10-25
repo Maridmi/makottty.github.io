@@ -2,10 +2,30 @@
 	.slideanim{
 		margin-left: 10%;
 	}
+
+	.row {
+		margin: 20px;
+	}
+
+	.left {
+		margin: 1% 0 0 10%;
+	}
+}
+
+
+@media screen and (min-width:210px) and (max-width: 1024px){
+	#googleMap {
+		margin-top: 30px;
+	}
+
+	.left {
+		margin: 2%;
+	}
 }
 
 .all {
     color: white;
+	background-image: radial-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.5)), url("/img/back.jpg");
 }
 
 .left a {

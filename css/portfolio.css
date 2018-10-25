@@ -86,7 +86,15 @@
         display: none;
     }
 
-    .carousel-inners, .carousel, .carousel-item, .carousel-indicators, .column1, .thumbnail {
+    .carousel-inners {
+        display: none;
+    }
+
+    .carousel {
+        display: none;
+    } 
+
+    .carousel-item, .carousel-indicators, .column1, .thumbnail, .carousel-control-prev {
         display: none;
     }
 }
