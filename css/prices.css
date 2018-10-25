@@ -29,18 +29,18 @@
 	color: #FF0F7F;
 }
 
-.btn {
+.div {
 	margin-top: 20px;
 	background-color: inherit;
 	outline: none;
 }
 
-.btn a {
+.div a {
 	color: white;
 	text-decoration: none;
 }
 
-.btn a:hover {
+.div a:hover {
 	color: white;
 	text-decoration: none;
 }
