@@ -94,7 +94,7 @@
         display: none;
     } 
 
-    .carousel-item, .carousel-indicators, .column1, .thumbnail, .carousel-control-prev {
+    .carousel-item, .carousel-indicators, .thumbnail, .carousel-control-prev {
         display: none;
     }
 }

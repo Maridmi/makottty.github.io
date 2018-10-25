@@ -78,6 +78,10 @@
 	color: blue;
 }
 
+.after p {
+	font-size: 110%;
+}
+
 @media screen and (min-width:1024px){ 
 	.navbar {
 		height: 60px;
