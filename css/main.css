@@ -75,11 +75,11 @@
 
 .bot a:hover {
 	cursor: pointer;
-	color: blue;
+	color: #FF0F7F;
 }
 
 .after p {
-	font-size: 90%;
+	font-size: 100%;
 }
 
 @media screen and (min-width:1024px){ 
@@ -94,6 +94,7 @@
 	.carousel-inner img {
     	width: 100%;
     	height: 650px;
+    	object-fit: cover;
     	margin: 0;
 	}
 
