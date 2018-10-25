@@ -78,7 +78,7 @@
 		position: fixed;
 		bottom: 0;
 	}
-	
+
 	.bot {
 		display: flex;
 		flex-direction: row;
@@ -89,7 +89,6 @@
 		height: 48px;
 		padding: 15px 0 15px 0;
 		margin-top: 80px;
-		position: fixed;
 	}
 
 	.image {
