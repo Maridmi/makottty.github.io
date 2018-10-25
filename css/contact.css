@@ -2,24 +2,12 @@
 	.slideanim{
 		margin-left: 10%;
 	}
-
-	.row {
-		margin: 20px;
-	}
-
-	.left {
-		margin: 1% 0 0 10%;
-	}
 }
 
 
 @media screen and (min-width:210px) and (max-width: 1024px){
-	#googleMap {
-		margin-top: 30px;
-	}
-
-	.left {
-		margin: 2%;
+	#contact {
+		margin-bottom: 40px;
 	}
 }
 
