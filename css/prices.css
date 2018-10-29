@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 1024px){
 	.all {
-		background: radial-gradient(#1F0A43, #440429);
+		background: radial-gradient(#1F0A43, #2D061D);
 	}
 
 	.panel-default {
@@ -108,7 +108,7 @@
 
 @media screen and (min-width:210px) and (max-width: 500px){
 	.all {
-		background: radial-gradient(#1F0A43, #440429);
+		background-image: radial-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/makotty-219613.appspot.com/o/back.jpg?alt=media&token=2ad42adc-71d5-451d-80d9-5d7571615eac");
 	}
 
 	.panel-default {
