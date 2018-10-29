@@ -87,10 +87,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 1024px){
 	.all {
-		background: radial-gradient(#430A32, #290656);
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		background: radial-gradient(#430A32, #1F0A43);
 	}
 
 	.panel-default {
@@ -111,7 +108,7 @@
 
 @media screen and (min-width:210px) and (max-width: 500px){
 	.all {
-		background: radial-gradient(#290656, #430A32);
+		background: radial-gradient(#1F0A43, #430A32);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
