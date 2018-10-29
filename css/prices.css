@@ -85,13 +85,16 @@
 
 }
 
-@media screen and (min-width: 400px) and (max-width: 1024px){
+@media screen and (min-width: 500px) and (max-width: 1024px){
 	.all {
-		background: radial-gradient(#290656, #430A32);
+		background: radial-gradient(#430A32, #290656);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.panel-default {
-		width: 60%;
+		width: 75%;
 		margin: 25px 20px 40px 20px;
 		border-radius: 10px;
 	}
@@ -106,9 +109,12 @@
 	}
 }
 
-@media screen and (min-width:210px) and (max-width: 400px){
+@media screen and (min-width:210px) and (max-width: 500px){
 	.all {
 		background: radial-gradient(#290656, #430A32);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.panel-default {
