@@ -89,7 +89,7 @@
 	font-size: 100%;
 }
 
-@media screen and (min-width: 700px){ 
+@media screen and (min-width: 1024px){ 
 	.navbar {
 		height: 60px;
 	}
@@ -206,7 +206,7 @@
 	}
 }
 
-@media screen and (min-width: 200px) and (max-width: 700px){ 
+@media screen and (min-width: 200px) and (max-width: 1024px){ 
 	.navbar {
 		text-align: center;
 		min-height: 55px;
