@@ -46,16 +46,16 @@
 }
 
 .all {
-	background-image: radial-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.5)), url("/img/back.jpg");
+	background-image: radial-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/makotty-219613.appspot.com/o/back.jpg?alt=media&token=2ad42adc-71d5-451d-80d9-5d7571615eac");
 }
 
 
 .panel1 {
-	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("/img/back.gif");
+	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/makotty-219613.appspot.com/o/back.gif?alt=media&token=36eda588-b444-4026-bb3e-249d8e3461a2");
 }
 
 .panel2 {
-	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("/img/back2.gif");
+	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/makotty-219613.appspot.com/o/back2.gif?alt=media&token=1c606eed-401b-4170-82d4-2eb470dafca0");
 }
 
 .bot a{
