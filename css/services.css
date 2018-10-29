@@ -109,6 +109,6 @@
 
   .all {
     color: white;
-    background-image: radial-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.5)), url("/img/back.jpg");
+    background: radial-gradient(#1F0A43, #430A32);
   }
 }
