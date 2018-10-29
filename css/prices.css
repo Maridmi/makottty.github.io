@@ -45,11 +45,6 @@
 	text-decoration: none;
 }
 
-.all {
-	background-image: radial-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/makotty-219613.appspot.com/o/back.jpg?alt=media&token=2ad42adc-71d5-451d-80d9-5d7571615eac");
-}
-
-
 .panel1 {
 	background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/makotty-219613.appspot.com/o/back.gif?alt=media&token=36eda588-b444-4026-bb3e-249d8e3461a2");
 }
@@ -63,6 +58,10 @@
 }
 
 @media screen and (min-width: 1024px){ 
+	.all {
+		background-image: radial-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/makotty-219613.appspot.com/o/back.jpg?alt=media&token=2ad42adc-71d5-451d-80d9-5d7571615eac");
+	}
+
 	.panel-default {
 		width: 310px;
 		margin: 25px 20px 40px 20px;
@@ -86,7 +85,11 @@
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px){
+@media screen and (min-width: 400px) and (max-width: 1024px){
+	.all {
+		background: radial-gradient(#290656, #430A32);
+	}
+
 	.panel-default {
 		width: 60%;
 		margin: 25px 20px 40px 20px;
@@ -103,7 +106,11 @@
 	}
 }
 
-@media screen and (min-width:210px) and (max-width: 600px){
+@media screen and (min-width:210px) and (max-width: 400px){
+	.all {
+		background: radial-gradient(#290656, #430A32);
+	}
+
 	.panel-default {
 		width: 95%;
 		margin: 25px 20px 40px 20px;
@@ -113,10 +120,5 @@
 	.image {
 		width: 70%;
 		margin: 10% 15% 0 15%;
-	}
-
-	.success {
-		width: 80%;
-		margin: 0 10% 0 10%;
 	}
 }
