@@ -31,7 +31,7 @@
 
 @media screen and (min-width:1024px){ 
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/me4.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/makotty-219613.appspot.com/o/me%2Fme4.jpg?alt=media&token=51abdd17-c60c-4ec5-9ee8-b480994db41e");
         height: 400px;
     }
 
@@ -43,7 +43,7 @@
 
 @media screen and (min-width:210px) and (max-width: 1024px){
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/me.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/makotty-219613.appspot.com/o/me%2Fme.jpg?alt=media&token=b2bdd03e-dab7-4287-a212-995fb84bf916");
         height: 400px;
     }
 
