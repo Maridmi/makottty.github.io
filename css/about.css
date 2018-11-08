@@ -31,7 +31,7 @@
 
 @media screen and (min-width:1024px){ 
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/me/me4.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/me/me4.jpg");
         height: 400px;
     }
 
@@ -43,7 +43,7 @@
 
 @media screen and (min-width:210px) and (max-width: 1024px){
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/me/me.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/me/me.jpg");
         height: 400px;
     }
 
